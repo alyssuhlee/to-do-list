@@ -11,7 +11,9 @@ inputBox.onkeyup = ()=>{
     addBtn.classList.remove("active"); 
   }
 }
+
 showTasks(); 
+
 addBtn.onclick = ()=>{ 
   let userEnteredValue = inputBox.value; 
   let getLocalStorageData = localStorage.getItem("New Todo"); 
@@ -25,6 +27,7 @@ addBtn.onclick = ()=>{
   showTasks(); 
   addBtn.classList.remove("active"); 
 }
+
 function showTasks(){
   let getLocalStorageData = localStorage.getItem("New Todo");
   if(getLocalStorageData == null){
