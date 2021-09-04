@@ -1,1 +1,1 @@
-Simple project using HTML, CSS, and JavaScript.
+Repository of a mini project utilizing HTML, CSS, and JavaScript.
