@@ -1,1 +1,1 @@
-# to-do-list
+Simple project using HTML, CSS, and JavaScript.
